@@ -1,0 +1,31 @@
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe.config
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.pdb
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csprojResolveAssemblyReference.cache
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Form1.resources
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Properties.Resources.resources
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.GenerateResource.cache
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.CoreCompileInputs.cache
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.exe
+C:\Users\ri210\Documents\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.pdb
+K:\DatabaseProgramVB\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe.config
+K:\DatabaseProgramVB\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe
+K:\DatabaseProgramVB\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.pdb
+K:\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csprojResolveAssemblyReference.cache
+K:\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Properties.Resources.resources
+K:\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.GenerateResource.cache
+K:\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.CoreCompileInputs.cache
+K:\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.exe
+K:\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.pdb
+K:\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Login.resources
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe.config
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.pdb
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Form2.resources
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Login.resources
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Properties.Resources.resources
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.exe
+C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.pdb
