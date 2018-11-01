@@ -29,3 +29,14 @@ C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\D
 C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.CoreCompileInputs.cache
 C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.exe
 C:\Users\Ryan\Documents\Uni Work\DatabaseProgramVB\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.pdb
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe.config
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.pdb
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csprojAssemblyReference.cache
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Form2.resources
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Login.resources
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Properties.Resources.resources
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.GenerateResource.cache
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.CoreCompileInputs.cache
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.exe
+C:\Users\Generalbruxu\Desktop\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.pdb

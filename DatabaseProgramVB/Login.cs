@@ -27,11 +27,24 @@ namespace DatabaseProgramVB
         
         }
 
-       
+
+
+        string[] Usernames = { "Manager", "Labourer" }; // users 
+        string[] Passwords = { "Manager1", "Labourer1" };  // passwords for the users
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
+            //condition for the next form appear 
+            if (Usernames.Contains(textBox1.Text) && Passwords.Contains(maskedTextBox1.Text) &&
+                Array.IndexOf(Usernames, textBox1.Text) == Array.IndexOf(Passwords, maskedTextBox1.Text
+                ))
+            {
+                Form1 f2 = new Form1(); // a new form is open by a click on the button
+                f2.ShowDialog();
+            }
+            else
+                MessageBox.Show("The Username or Password is incorrect, please try again");
         }
     }
 }
