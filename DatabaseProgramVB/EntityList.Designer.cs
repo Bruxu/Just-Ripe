@@ -1,6 +1,6 @@
 ﻿namespace DatabaseProgramVB
 {
-    partial class Form2
+    partial class EntityForm
     {
         /// <summary>
         /// Required designer variable.
@@ -137,7 +137,7 @@
             this.button3.Text = "Go";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // Form2
+            // EntityForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,7 +151,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
+            this.Name = "EntityForm";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();

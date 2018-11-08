@@ -17,38 +17,21 @@ namespace DatabaseProgramVB
             InitializeComponent();
         }
 
-<<<<<<< HEAD
-       
-=======
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            string name;
-            Console.WriteLine("Enter your username:");
-            name = Console.ReadLine();
-            Console.WriteLine(name);
-
-        
-        }
-
-
-
         string[] Usernames = { "Manager", "Labourer" }; // users 
         string[] Passwords = { "Manager1", "Labourer1" };  // passwords for the users
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             //condition for the next form appear 
-            if (Usernames.Contains(textBox1.Text) && Passwords.Contains(maskedTextBox1.Text) &&
-                Array.IndexOf(Usernames, textBox1.Text) == Array.IndexOf(Passwords, maskedTextBox1.Text
+            if (Usernames.Contains(textBox1.Text) && Passwords.Contains(textBox2.Text) &&
+                Array.IndexOf(Usernames, textBox1.Text) == Array.IndexOf(Passwords, textBox2.Text
                 ))
             {
-                Form1 f2 = new Form1(); // a new form is open by a click on the button
-                f2.ShowDialog();
+                EntityForm f2 = new EntityForm(); // a new form is open by a click on the button
+            f2.ShowDialog();
             }
             else
                 MessageBox.Show("The Username or Password is incorrect, please try again");
         }
     }
->>>>>>> 2b2e957bd01f0c7f154459fac060970f3d0dbe92
-}
+    }

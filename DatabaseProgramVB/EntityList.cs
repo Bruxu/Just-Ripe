@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DatabaseProgramVB
 {
-    public partial class Form2 : Form
+    public partial class EntityForm : Form
     {
-        public Form2()
+        public EntityForm()
         {
             InitializeComponent();
         }
