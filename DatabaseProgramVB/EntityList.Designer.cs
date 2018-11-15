@@ -37,13 +37,14 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(222, 109);
+            this.label1.Location = new System.Drawing.Point(56, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 20);
             this.label1.TabIndex = 0;
@@ -53,7 +54,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(210, 195);
+            this.label2.Location = new System.Drawing.Point(44, 178);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 20);
             this.label2.TabIndex = 1;
@@ -63,7 +64,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(205, 298);
+            this.label3.Location = new System.Drawing.Point(39, 281);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 20);
             this.label3.TabIndex = 2;
@@ -77,7 +78,7 @@
             "Wheat",
             "Oats",
             "Corn"});
-            this.comboBox1.Location = new System.Drawing.Point(334, 109);
+            this.comboBox1.Location = new System.Drawing.Point(168, 92);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(193, 21);
             this.comboBox1.TabIndex = 3;
@@ -91,7 +92,7 @@
             "Wheat",
             "Oats",
             "Corn"});
-            this.comboBox2.Location = new System.Drawing.Point(334, 194);
+            this.comboBox2.Location = new System.Drawing.Point(168, 177);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(193, 21);
             this.comboBox2.TabIndex = 4;
@@ -105,14 +106,14 @@
             "Wheat",
             "Oats",
             "Corn"});
-            this.comboBox3.Location = new System.Drawing.Point(334, 297);
+            this.comboBox3.Location = new System.Drawing.Point(168, 280);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(193, 21);
             this.comboBox3.TabIndex = 5;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(561, 109);
+            this.button1.Location = new System.Drawing.Point(395, 92);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(57, 21);
             this.button1.TabIndex = 6;
@@ -121,7 +122,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(561, 196);
+            this.button2.Location = new System.Drawing.Point(395, 179);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(57, 21);
             this.button2.TabIndex = 7;
@@ -130,18 +131,28 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(561, 296);
+            this.button3.Location = new System.Drawing.Point(395, 279);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(57, 21);
             this.button3.TabIndex = 8;
             this.button3.Text = "Go";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(624, 56);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(347, 265);
+            this.richTextBox1.TabIndex = 9;
+            this.richTextBox1.Text = "";
+            // 
             // EntityForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ClientSize = new System.Drawing.Size(1012, 450);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -169,5 +180,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

@@ -42,16 +42,3 @@ C:\Users\Ryan\Desktop\Just-Ripe-master\DatabaseProgramVB\bin\Debug\DatabaseProgr
 C:\Users\Ryan\Desktop\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.EntityForm.resources
 C:\Users\Ryan\Desktop\Just-Ripe-master\DatabaseProgramVB\bin\Debug\AllData.mdf
 C:\Users\Ryan\Desktop\Just-Ripe-master\DatabaseProgramVB\bin\Debug\AllData_log.ldf
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\bin\Debug\AllData.mdf
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\bin\Debug\AllData_log.ldf
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe.config
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.pdb
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csprojAssemblyReference.cache
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.EntityForm.resources
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Login.resources
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Properties.Resources.resources
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.GenerateResource.cache
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.CoreCompileInputs.cache
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.exe
-C:\Users\Ryan\Documents\GitHub\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.pdb
