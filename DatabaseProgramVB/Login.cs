@@ -28,6 +28,7 @@ namespace DatabaseProgramVB
                 ))
             {
                 EntityForm f2 = new EntityForm(); // a new form is open by a click on the button
+                Hide();
             f2.ShowDialog();
             }
             else
