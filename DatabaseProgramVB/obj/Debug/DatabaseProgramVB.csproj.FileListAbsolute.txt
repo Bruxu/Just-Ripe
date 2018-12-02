@@ -76,3 +76,8 @@ C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\
 C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.CoreCompileInputs.cache
 C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.exe
 C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.pdb
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\AllData.mdf
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\AllData_log.ldf
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe.config
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.pdb

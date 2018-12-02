@@ -15,11 +15,22 @@ namespace DatabaseProgramVB
     {
         private SqlDataAdapter dataAdapter = new SqlDataAdapter();
         private string SelectedTableName;
-        public EntityForm()
+
+        public EntityForm(bool isAdmin)
         {
             InitializeComponent();
 
-            
+            //if not manager
+            if (!isAdmin) RestrictAdminPrivilege();
+        }
+        private void RestrictAdminPrivilege()
+        {
+            //Hide Controls not meant ofr the labourers
+            vehicleList.Hide();
+            vehicleListButton.Hide();
+
+            storageList.Hide();
+            storageListButton.Hide();
         }
 
         private void SelectDataBaseTable(string tableName)
@@ -38,9 +49,9 @@ namespace DatabaseProgramVB
         private void EntityForm_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'allDataDataSet.Staff' table. You can move, or remove it, as needed.
-            this.staffTableAdapter.Fill(this.allDataDataSet.Staff);
+            //this.staffTableAdapter.Fill(this.allDataDataSet.Staff);
             // TODO: This line of code loads data into the 'allDataDataSet.Crop' table. You can move, or remove it, as needed.
-            this.cropTableAdapter.Fill(this.allDataDataSet.Crop);
+            //this.cropTableAdapter.Fill(this.allDataDataSet.Crop);
 
         }
         //Get data from database using query (selectCommand)
@@ -85,9 +96,14 @@ namespace DatabaseProgramVB
             SelectDataBaseTable("Crop");
         }
 
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            SelectDataBaseTable("Fertilizer");
+        }
+
         private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
-            //Try to save dataBase whenever a value changes
+            //Try to save dataBase whenever a value changes while the code runs
             try
             {
                 dataAdapter.Update((DataTable)allDataDataSetBindingSource.DataSource);
@@ -97,6 +113,11 @@ namespace DatabaseProgramVB
                 
             }
             
+        }
+
+        private void EntityForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

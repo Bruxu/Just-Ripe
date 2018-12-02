@@ -29,12 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.cropList = new System.Windows.Forms.Label();
+            this.vehicleList = new System.Windows.Forms.Label();
+            this.storageList = new System.Windows.Forms.Label();
+            this.cropListButton = new System.Windows.Forms.Button();
+            this.vehicleListButton = new System.Windows.Forms.Button();
+            this.storageListButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.allDataDataSet = new DatabaseProgramVB.AllDataDataSet();
             this.cropBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -43,6 +45,8 @@
             this.staffBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.staffTableAdapter = new DatabaseProgramVB.AllDataDataSetTableAdapters.StaffTableAdapter();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.fertilizerList = new System.Windows.Forms.Label();
+            this.fertilizerListButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.allDataDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cropBindingSource)).BeginInit();
@@ -51,71 +55,97 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // cropList
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(56, 92);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Crop List";
+            this.cropList.AutoSize = true;
+            this.cropList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cropList.Location = new System.Drawing.Point(81, 112);
+            this.cropList.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.cropList.Name = "cropList";
+            this.cropList.Size = new System.Drawing.Size(99, 25);
+            this.cropList.TabIndex = 0;
+            this.cropList.Text = "Crop List";
             // 
-            // label2
+            // vehicleList
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(44, 178);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Vehicle List";
+            this.vehicleList.AutoSize = true;
+            this.vehicleList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vehicleList.Location = new System.Drawing.Point(59, 219);
+            this.vehicleList.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.vehicleList.Name = "vehicleList";
+            this.vehicleList.Size = new System.Drawing.Size(124, 25);
+            this.vehicleList.TabIndex = 1;
+            this.vehicleList.Text = "Vehicle List";
             // 
-            // label3
+            // storageList
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(39, 281);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Storage List";
+            this.storageList.AutoSize = true;
+            this.storageList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.storageList.Location = new System.Drawing.Point(52, 346);
+            this.storageList.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.storageList.Name = "storageList";
+            this.storageList.Size = new System.Drawing.Size(128, 25);
+            this.storageList.TabIndex = 2;
+            this.storageList.Text = "Storage List";
             // 
-            // button1
+            // cropListButton
             // 
-            this.button1.Location = new System.Drawing.Point(157, 93);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(57, 21);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Go";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.cropListButton.Location = new System.Drawing.Point(209, 114);
+            this.cropListButton.Margin = new System.Windows.Forms.Padding(4);
+            this.cropListButton.Name = "cropListButton";
+            this.cropListButton.Size = new System.Drawing.Size(76, 26);
+            this.cropListButton.TabIndex = 6;
+            this.cropListButton.Text = "Go";
+            this.cropListButton.UseVisualStyleBackColor = true;
+            this.cropListButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // vehicleListButton
             // 
-            this.button2.Location = new System.Drawing.Point(157, 180);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(57, 21);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Go";
-            this.button2.UseVisualStyleBackColor = true;
+            this.vehicleListButton.Location = new System.Drawing.Point(209, 222);
+            this.vehicleListButton.Margin = new System.Windows.Forms.Padding(4);
+            this.vehicleListButton.Name = "vehicleListButton";
+            this.vehicleListButton.Size = new System.Drawing.Size(76, 26);
+            this.vehicleListButton.TabIndex = 7;
+            this.vehicleListButton.Text = "Go";
+            this.vehicleListButton.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // storageListButton
             // 
-            this.button3.Location = new System.Drawing.Point(157, 280);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(57, 21);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Go";
-            this.button3.UseVisualStyleBackColor = true;
+            this.storageListButton.Location = new System.Drawing.Point(209, 345);
+            this.storageListButton.Margin = new System.Windows.Forms.Padding(4);
+            this.storageListButton.Name = "storageListButton";
+            this.storageListButton.Size = new System.Drawing.Size(76, 26);
+            this.storageListButton.TabIndex = 8;
+            this.storageListButton.Text = "Go";
+            this.storageListButton.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(287, 69);
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridView1.Location = new System.Drawing.Point(383, 85);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(587, 288);
+            this.dataGridView1.Size = new System.Drawing.Size(783, 354);
             this.dataGridView1.TabIndex = 9;
             this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellValueChanged);
             // 
@@ -147,21 +177,45 @@
             // 
             this.staffTableAdapter.ClearBeforeFill = true;
             // 
+            // fertilizerList
+            // 
+            this.fertilizerList.AutoSize = true;
+            this.fertilizerList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fertilizerList.Location = new System.Drawing.Point(48, 280);
+            this.fertilizerList.Name = "fertilizerList";
+            this.fertilizerList.Size = new System.Drawing.Size(135, 25);
+            this.fertilizerList.TabIndex = 1;
+            this.fertilizerList.Text = "Fertilizer List";
+            // 
+            // fertilizerListButton
+            // 
+            this.fertilizerListButton.Location = new System.Drawing.Point(210, 280);
+            this.fertilizerListButton.Name = "fertilizerListButton";
+            this.fertilizerListButton.Size = new System.Drawing.Size(75, 23);
+            this.fertilizerListButton.TabIndex = 10;
+            this.fertilizerListButton.Text = "Go";
+            this.fertilizerListButton.UseVisualStyleBackColor = true;
+            this.fertilizerListButton.Click += new System.EventHandler(this.button4_Click_1);
+            // 
             // EntityForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1012, 450);
+            this.ClientSize = new System.Drawing.Size(1349, 554);
+            this.Controls.Add(this.fertilizerListButton);
+            this.Controls.Add(this.fertilizerList);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.storageListButton);
+            this.Controls.Add(this.vehicleListButton);
+            this.Controls.Add(this.cropListButton);
+            this.Controls.Add(this.storageList);
+            this.Controls.Add(this.vehicleList);
+            this.Controls.Add(this.cropList);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EntityForm";
             this.Text = "Form2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EntityForm_FormClosing);
             this.Load += new System.EventHandler(this.EntityForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.allDataDataSet)).EndInit();
@@ -176,12 +230,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label cropList;
+        private System.Windows.Forms.Label vehicleList;
+        private System.Windows.Forms.Label storageList;
+        private System.Windows.Forms.Button cropListButton;
+        private System.Windows.Forms.Button vehicleListButton;
+        private System.Windows.Forms.Button storageListButton;
         private System.Windows.Forms.DataGridView dataGridView1;
         private AllDataDataSet allDataDataSet;
         private System.Windows.Forms.BindingSource cropBindingSource;
@@ -190,5 +244,7 @@
         private System.Windows.Forms.BindingSource staffBindingSource;
         private AllDataDataSetTableAdapters.StaffTableAdapter staffTableAdapter;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.Label fertilizerList;
+        private System.Windows.Forms.Button fertilizerListButton;
     }
 }
