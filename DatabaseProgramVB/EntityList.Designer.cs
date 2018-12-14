@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cropList = new System.Windows.Forms.Label();
             this.vehicleList = new System.Windows.Forms.Label();
             this.storageList = new System.Windows.Forms.Label();
@@ -38,21 +37,9 @@
             this.vehicleListButton = new System.Windows.Forms.Button();
             this.storageListButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.allDataDataSet = new DatabaseProgramVB.AllDataDataSet();
-            this.cropBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.cropTableAdapter = new DatabaseProgramVB.AllDataDataSetTableAdapters.CropTableAdapter();
-            this.allDataDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.staffBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.staffTableAdapter = new DatabaseProgramVB.AllDataDataSetTableAdapters.StaffTableAdapter();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.fertilizerList = new System.Windows.Forms.Label();
             this.fertilizerListButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.allDataDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cropBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.allDataDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.staffBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // cropList
@@ -97,7 +84,7 @@
             this.cropListButton.TabIndex = 6;
             this.cropListButton.Text = "Go";
             this.cropListButton.UseVisualStyleBackColor = true;
-            this.cropListButton.Click += new System.EventHandler(this.button1_Click);
+            this.cropListButton.Click += new System.EventHandler(this.Button1_Click);
             // 
             // vehicleListButton
             // 
@@ -108,6 +95,7 @@
             this.vehicleListButton.TabIndex = 7;
             this.vehicleListButton.Text = "Go";
             this.vehicleListButton.UseVisualStyleBackColor = true;
+            this.vehicleListButton.Click += new System.EventHandler(this.VehicleListButton_Click);
             // 
             // storageListButton
             // 
@@ -118,6 +106,7 @@
             this.storageListButton.TabIndex = 8;
             this.storageListButton.Text = "Go";
             this.storageListButton.UseVisualStyleBackColor = true;
+            this.storageListButton.Click += new System.EventHandler(this.StorageListButton_Click);
             // 
             // dataGridView1
             // 
@@ -125,57 +114,28 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.Location = new System.Drawing.Point(383, 85);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(783, 354);
             this.dataGridView1.TabIndex = 9;
-            this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellValueChanged);
-            // 
-            // allDataDataSet
-            // 
-            this.allDataDataSet.DataSetName = "AllDataDataSet";
-            this.allDataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // cropBindingSource
-            // 
-            this.cropBindingSource.DataMember = "Crop";
-            this.cropBindingSource.DataSource = this.allDataDataSet;
-            // 
-            // cropTableAdapter
-            // 
-            this.cropTableAdapter.ClearBeforeFill = true;
-            // 
-            // allDataDataSetBindingSource
-            // 
-            this.allDataDataSetBindingSource.DataSource = this.allDataDataSet;
-            this.allDataDataSetBindingSource.Position = 0;
-            // 
-            // staffBindingSource
-            // 
-            this.staffBindingSource.DataMember = "Staff";
-            this.staffBindingSource.DataSource = this.allDataDataSetBindingSource;
-            // 
-            // staffTableAdapter
-            // 
-            this.staffTableAdapter.ClearBeforeFill = true;
             // 
             // fertilizerList
             // 
@@ -195,7 +155,7 @@
             this.fertilizerListButton.TabIndex = 10;
             this.fertilizerListButton.Text = "Go";
             this.fertilizerListButton.UseVisualStyleBackColor = true;
-            this.fertilizerListButton.Click += new System.EventHandler(this.button4_Click_1);
+            this.fertilizerListButton.Click += new System.EventHandler(this.Button4_Click_1);
             // 
             // EntityForm
             // 
@@ -214,15 +174,8 @@
             this.Controls.Add(this.cropList);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EntityForm";
-            this.Text = "Form2";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EntityForm_FormClosing);
-            this.Load += new System.EventHandler(this.EntityForm_Load);
+            this.ShowIcon = false;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.allDataDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cropBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.allDataDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.staffBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,13 +190,6 @@
         private System.Windows.Forms.Button vehicleListButton;
         private System.Windows.Forms.Button storageListButton;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private AllDataDataSet allDataDataSet;
-        private System.Windows.Forms.BindingSource cropBindingSource;
-        private AllDataDataSetTableAdapters.CropTableAdapter cropTableAdapter;
-        private System.Windows.Forms.BindingSource allDataDataSetBindingSource;
-        private System.Windows.Forms.BindingSource staffBindingSource;
-        private AllDataDataSetTableAdapters.StaffTableAdapter staffTableAdapter;
-        private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Label fertilizerList;
         private System.Windows.Forms.Button fertilizerListButton;
     }

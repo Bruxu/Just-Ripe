@@ -68,7 +68,11 @@ F:\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.Generat
 F:\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.CoreCompileInputs.cache
 F:\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.exe
 F:\Just-Ripe-master\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.pdb
-C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csprojAssemblyReference.cache
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\AllData.mdf
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\AllData_log.ldf
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe.config
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe
+C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.pdb
 C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.EntityForm.resources
 C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Login.resources
 C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.Properties.Resources.resources
@@ -76,8 +80,3 @@ C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\
 C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.csproj.CoreCompileInputs.cache
 C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.exe
 C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\obj\Debug\DatabaseProgramVB.pdb
-C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\AllData.mdf
-C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\AllData_log.ldf
-C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe.config
-C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.exe
-C:\Users\Generalbruxu\Desktop\DatabaseProgramVB\Just-Ripe\DatabaseProgramVB\bin\Debug\DatabaseProgramVB.pdb

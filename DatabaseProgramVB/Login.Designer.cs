@@ -79,7 +79,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(561, 177);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(189, 22);
             this.textBox1.TabIndex = 3;
@@ -87,7 +87,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(557, 258);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(192, 22);
@@ -96,13 +96,13 @@
             // btn_login
             // 
             this.btn_login.Location = new System.Drawing.Point(419, 412);
-            this.btn_login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_login.Margin = new System.Windows.Forms.Padding(4);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(169, 37);
             this.btn_login.TabIndex = 5;
             this.btn_login.Text = "submit";
             this.btn_login.UseVisualStyleBackColor = true;
-            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
+            this.btn_login.Click += new System.EventHandler(this.Btn_login_Click);
             // 
             // Login
             // 
@@ -117,9 +117,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 

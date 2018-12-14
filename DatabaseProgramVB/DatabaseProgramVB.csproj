@@ -69,12 +69,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AllDataDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="CropsInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CropsInfo.Designer.cs">
-      <DependentUpon>CropsInfo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,12 +83,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RealForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RealForm.Designer.cs">
-      <DependentUpon>RealForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="EntityList.resx">
       <DependentUpon>EntityList.cs</DependentUpon>
     </EmbeddedResource>
